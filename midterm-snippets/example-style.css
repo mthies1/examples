@@ -1,0 +1,18 @@
+/* Resize and position the basemap control on an ArcGIS map. */
+#BasemapToggle {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 50;
+}
+
+/* Create a full page background image on the Bootstrap Cover template 
+ * http://stackoverflow.com/questions/25556622/bootstrap-cover-template-where-to-place-image
+ */
+body {
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
